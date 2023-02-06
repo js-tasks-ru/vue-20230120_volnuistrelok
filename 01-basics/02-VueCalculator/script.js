@@ -8,11 +8,11 @@ const App = {
             input_one: 0,
             input_two : 0,
             operator: 0,
-            oper: null,
         }
     },
     computed:{
         calculatingResults(){
+            const oper = 0
             if (this.operator === "sum") {this.oper = "+"}
             if (this.operator === "subtract") {this.oper = "-"}
             if (this.operator === "multiply") {this.oper = "*"}
