@@ -12,7 +12,7 @@ const App = {
     },
     computed:{
         calculatingResults(){
-            const oper = 0
+            let oper = 0
             if (this.operator === "sum") {this.oper = "+"}
             if (this.operator === "subtract") {this.oper = "-"}
             if (this.operator === "multiply") {this.oper = "*"}
