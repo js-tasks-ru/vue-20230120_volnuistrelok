@@ -13,11 +13,11 @@ const App = {
     computed:{
         calculatingResults(){
             let oper = 0
-            if (this.operator === "sum") {this.oper = "+"}
-            if (this.operator === "subtract") {this.oper = "-"}
-            if (this.operator === "multiply") {this.oper = "*"}
-            if (this.operator === "divide") {this.oper = "/"}
-            return eval(this.input_one + this.oper + this.input_two)
+            if (this.operator === "sum") {oper = "+"}
+            if (this.operator === "subtract") {oper = "-"}
+            if (this.operator === "multiply") {oper = "*"}
+            if (this.operator === "divide") {oper = "/"}
+            return eval(this.input_one + oper + this.input_two)
 
         }
     }
